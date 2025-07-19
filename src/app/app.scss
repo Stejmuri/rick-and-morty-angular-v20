@@ -1,1 +1,27 @@
 // Estilos a tu preferencia (Se recomienda estilos sencillos y claros)
+.main-header {
+  text-align: center;
+  background: linear-gradient(to right, #f0f8ff, #e0f7fa);
+  padding: 2rem 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #1c1c1c;
+    text-shadow: 1px 1px 2px #c7c7c7;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+    margin: 0;
+  }
+}
